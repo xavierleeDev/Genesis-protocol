@@ -1,1 +1,0 @@
-print("System is operational. I am ready.")
