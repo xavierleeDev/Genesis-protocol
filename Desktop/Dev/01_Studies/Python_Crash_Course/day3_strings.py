@@ -17,5 +17,13 @@ print(f"'{clean_id}'")
 
 print("Languages:\n\tPython\n\tC\n\tJavaScript")
 
-username = "Xavier"
-print(f"Welcome back {username}")
+# 1. The Input (Messy Data)
+user_name = "  xaVIer  "
+
+# 2. The Logic (Clean it up)
+# .strip() removes the spaces
+# .title() fixes the capitalization
+clean_name = user_name.strip().title()
+
+# 3. The Output (Formatted String)
+print(f"Welcome back, {clean_name}.")
